@@ -1,13 +1,19 @@
-%% Polarisation correction utilities
-%Corrects for polarisation bias of aligned samples in microscopy images when dye labels are
-%not fully free to rotate
-%Requires a calibration sample (2d image or Z stack) that has no intrinsic
-%net alignment. The anisotropy of each ring in Fourier space is measured to
-%get calibrtion data. The inverse of this spectrum can then be appled to an
-%aligned sample and the effect of the polarisation bias removed to leave
-%just the true alignment. 
+%% FouRD image polarisation calibration and correction software. %%
+% Version 1.0 1/11/23   Richard J Marsh
+% This software is in support otf the publication 
+% "Characterisation and correction of polarisation effects in fluorescently labelled fibres" Nandini Aggarwai et.al
+% Submitted to the Journal of Microscopy 3/11/2023
+% All rights and permisions belong to Sian Culley (sian.culley@kcl.ac.uk) & Susan Cox (susan.cox@kcl.ac.uk)
 
-%% PRogram to creat user interface to lanch programs related to polarisation correction
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Polarisation correction utilities %%
+%Corrects for polarisation bias of aligned samples in microscopy images when dye labels are not fully free to rotate
+%Requires a calibration sample (2d image or Z stack) that has no intrinsic net alignment. 
+%The anisotropy of each ring in Fourier space is measured to get calibrtion data. 
+%The inverse of this spectrum can then be appled to an aligned sample and the effect of the polarisation bias
+%removed to leave just the true alignment. 
+
+%% Program to creat user interface to lanch programs related to polarisation correction
 %GUI parameters
 figSize = [200 280];
 figMargin = 20;

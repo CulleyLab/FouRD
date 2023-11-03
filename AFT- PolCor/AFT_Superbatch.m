@@ -1,3 +1,12 @@
+% This code is a modified version of the 'Alignment by Fourier Transform' package associated with the paper
+% "A Workflow for Rapid Unbiased Quantification of Fibrillar Feature Alignment in Biological Images" Front. Comput. Sci 14 October 2021, Stefania Marcotti et.al.
+% DOI: https://doi.org/10.3389/fcomp.2021.745831
+% Original software avalible at https://github.com/OakesLab/AFT-Alignment_by_Fourier_Transform
+% All rights and permissions belong to: Patrick Oakes poakes@gmail.com
+% The modifications support intigration into the FouRD package submitied with the paper
+% "Characterisation and correction of polarisation effects in fluorescently labelled fibres", Nandini Aggarwi et.al.
+% submitted to the Journal of Microscopy. 3/11/2023
+
 %% load input files [.tif] %%
 
 warning off

@@ -1,13 +1,20 @@
 ***FouRD - Fourier Ring Depolarisation***
 MATLAB implimentation v1.0 01/11/23
 
-*Program to measure, calibrate and correct fluorescence polarisation effect in microscopy images of fiberous structures. Submitted with the paper "Characterisation and correctio of polarisation effects in fluorescently labelled fibres" to the Journal of Microscopy.*
+*Program to measure, calibrate and correct fluorescence polarisation effect in microscopy images of fiberous structures. Submitted with the paper "Characterisation and correction of polarisation effects in fluorescently labelled fibres" to the Journal of Microscopy.*
 
-***FouRD implemented in the file FouRD_PolCor.m***
+***FouRD implemented in the file FouRD_PolCor.m***	Richard J. Marsh
 
-***All other files are a modified version of "Alignment by Fourier Transform" for the paper "A Workflow for Rapid Unbiased Quantification of Fibrillar Feature Alignment in Biological Images" Front. Comput. Sci 14 October 2021 Stefania Marcotti et.al.
+***Recursive Batch AFT implimented in AFT_superbatch.m***	Richard J.Marsh
+
+***All other files are a modified version of "Alignment by Fourier Transform (AFT)" ***
+The originals are taken from the paper "A Workflow for Rapid Unbiased Quantification of Fibrillar Feature Alignment in Biological Images" Front. Comput. Sci 14 October 2021, Stefania Marcotti et.al.
+
 DOI: https://doi.org/10.3389/fcomp.2021.745831
-Original version avalible at https://github.com/OakesLab/AFT-Alignment_by_Fourier_Transform ***
+Original software avalible at https://github.com/OakesLab/AFT-Alignment_by_Fourier_Transform
+See AFT_README.md for instructions for use and how to run as an independent program.
+
+For the AFTcomponents all rights and permissions belong to: Patrick Oakes poakes@gmail.com
 
 ***FouRD operation***
 To lanch FouRD run the scrit FouRD_PolCor in MATLAB
