@@ -1,7 +1,7 @@
 ***FouRD - Fourier Ring Depolarisation***
 MATLAB implimentation v1.0 01/11/23
 
-*Program to measure, calibrate and correct fluorescence polarisation effect in microscopy images of fiberous structures. Submitted with the paper "Characterisation and correction of polarisation effects in fluorescently labelled fibres" to the Journal of Microscopy.*
+*Program to measure, calibrate and correct fluorescence polarisation effect in microscopy images of fiberous structures. Submitted with the paper "Characterisation and correction of polarisation effects in fluorescently labelled fibres" to the Journal of Microscopy 3/11/23.*
 
 ***FouRD implemented in the file FouRD_PolCor.m***	Richard J. Marsh
 
@@ -16,8 +16,16 @@ See AFT_README.md for instructions for use and how to run as an independent prog
 
 For the AFTcomponents all rights and permissions belong to: Patrick Oakes poakes@gmail.com
 
+***FouRD instalation***
+You will Need MATLAB to run this application
+It was developed and tested on MATLAB version 2019a
+Download the FouRD-PolCor-AFT folder to a locl directory
+optionaly download the DemoData folder for some data to try.
+Open MATLAB, then open the script FouRD_PolCor.m
+if promted, click 'add to path'
+
 ***FouRD operation***
-To lanch FouRD run the scrit FouRD_PolCor in MATLAB
+To lanch FouRD open and run the scrit FouRD_PolCor.m in MATLAB
 This will show the Main user interface with several buttons that launch the component functions as follows
 
 1) "Anisotropy from image pair" :
