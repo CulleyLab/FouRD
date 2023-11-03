@@ -201,7 +201,7 @@ prompt = {'Max Pixels X', 'Max Pixels Y', ...                   % crops images t
     'Start ring'};                                              % Spatial frequency to start the corection from (below this is uncorrected)
 prompt_title = 'Calibration Parameters';
 dims = [1 50];
-definput = {'1024','1024','7','7','2'};
+definput = {'1024','1024','1','1','2'};
 user_answer = inputdlg(prompt, prompt_title, dims, definput);
 if (isempty(user_answer) == 1)    % abort if cancelled
     disp('Aborting calibration')
